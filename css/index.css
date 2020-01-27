@@ -1,0 +1,215 @@
+body
+{
+    margin: 0;
+    height: 100%;
+    width: 100%;
+    overflow-y: visible;
+    
+    padding-top: 100px;
+}  
+section{
+    margin: 5px;
+    margin-bottom: 100px;
+   
+}
+.top-half-para{
+    width: 400px;
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+    margin-left: 18%;
+    margin-top: 5%;
+    margin-bottom: 20px;
+}
+.bottom-half-para{
+    
+    margin-top: 160px;
+    margin-left: 840px;
+    width: 500px;
+}
+
+
+header{
+    text-align: center;
+    
+}
+.second-header{
+    font-size: 2.5em;
+    
+}
+h1 
+{
+    
+    text-align: center;
+    font-family: sans-serif;
+}
+h2 
+{
+    font-family: sans-serif;
+    font-size: 1.2em;
+    font-weight: lighter;
+}
+
+
+p{
+    font-size: 1.1em;
+    margin-left: 400px;
+    margin-right: 0;
+    padding-right: 0;
+    width: 400px;
+}
+p+header{
+
+    font-size: 1.5em;
+    
+    
+}
+h2+p{
+    margin-left: inherit;
+    display: inline-block;
+}
+p+p{
+    margin-left: inherit;
+}
+
+html{
+    margin: 0;
+}
+.main-header{
+    
+    background-color: #f5f5f5;
+    color: #000000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 152px;
+    position: fixed;
+    width: 80%;
+    top: 0;
+    z-index: 2;
+}
+
+.main-nav__items{
+    width: 100%;
+    padding: 0;
+    margin-bottom: 0;
+}
+
+.main-nav__item{
+    display: inline-block;
+    margin: 0;
+    padding: 15px 20px;
+   
+  
+    
+    
+}
+
+
+.main-nav__item a{
+    text-decoration: none;
+    color: #000000;
+    display: inline-block;
+   
+    
+}
+.main-nav__item a:hover,
+.main-nav__item a:active{
+    color: #ffffff;
+}
+
+#Amsterdam .first-img{
+   
+   height: auto;
+   float: right;
+   margin: 0;
+     margin-right: 220px;
+  margin-top: 20px;
+   
+}
+#Amsterdam .second-img{
+    
+   height: auto;
+   float: left;
+   
+  margin-left: 220px;
+  margin-top: 20px;
+}
+
+.first-footer{
+    position: relative;
+    left: 35%;
+    top: 40px;
+    font-size: 1.2em;
+}
+img{
+    width: 450px;
+    box-sizing: border-box;
+   box-shadow: 8px 8px 8px 8px;
+}
+.last-para{
+    width: 1000px;
+    position: relative;
+    left: 20%;
+}
+#tourist{
+    text-align: center;
+    margin-right: 200px;
+}
+#Bos-en-lommer .first-img{
+float: right;
+position: relative;
+top: 150px;
+right: 50px;
+height: 450px;
+}
+#Sport .first-p{
+    width: 800px;
+    position: relative;
+    top: 10px;
+}
+#Bos-en-lommer h2{
+    position: relative;
+    left: 200px;
+   
+}
+.companies.shopping{
+position: relative;
+left: 50px;
+}
+
+#Bos-en-lommer .third-img{
+position: relative;
+top: 150px;
+float: right;
+right: 100px;
+height: 450px;
+}
+#Sport p{
+    position: relative;
+     bottom: 120px;
+}
+#Sport img{
+    position: relative;
+    left: 200px;
+}
+.rest{
+    position: relative;
+  
+    width: 800px;
+}
+h3{
+    font-weight: lighter;
+}
+.rest p{
+    text-decoration: none;
+}
+.final-footer{
+    padding: 70px 152px;
+    background-color: #000000;
+    color: #ffffff;
+    
+}
+#Contact{
+    margin-bottom: 10px;
+}
