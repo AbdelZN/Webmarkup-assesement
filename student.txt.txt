@@ -1,4 +1,0 @@
-student name: Abdelilah Ziani
-student number: 536673
-student class: IT1A
-URL student GitHub repository: http://taekwon.eu/536673/index.html
